@@ -16,13 +16,11 @@ const App = () => {
   const handleCityChange = (city) => {
     setSelectedCity(city);
     setZipCode("");
-    setError("");
   };
 
   const handleZipCodeChange = (zip) => {
     setZipCode(zip);
     setSelectedCity("");
-    setError("");
   };
 
   const handleSearch = async () => {
