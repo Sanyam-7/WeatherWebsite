@@ -50,7 +50,7 @@ const App = () => {
       const data = response.data;
       const temperature = data.main.temp - 273.15;
       const newResult = {
-        city: selectedCity || data.name,
+        city: selectedCity,
         temperature: temperature,
       };
 
